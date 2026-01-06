@@ -6,11 +6,19 @@ Ce projet permet de lancer rapidement un environnement conteneurisé à l’aide
 
 ## Installation
 
+Créer un dossier samba-share, insérer-y tous les fichiers mis a disposition sur le github.
+
 Assurez-vous d’être à la racine du projet (là où se trouve le fichier `docker-compose.yml`), puis lancez la commande suivante :
 
 ```bash
 docker compose up -d
 ```
+Suite a cela aller dans votre explorateur de fichier et taper cela:
+
+```
+\\votre addresse ip\Data
+```
+
 ---
 
 ## Attention
