@@ -4,7 +4,7 @@ Ce projet permet de lancer rapidement un environnement conteneurisé à l’aide
 
 ---
 
-# Installation
+## Installation
 
 Assurez-vous d’être à la racine du projet (là où se trouve le fichier `docker-compose.yml`), puis lancez la commande suivante :
 
@@ -13,7 +13,7 @@ docker compose up -d
 ```
 ---
 
-# Attention
+## Attention
 
 Il est crucial que votre fichier de configuration s'appelle exactement Dockerfile et non Dockerfile.txt.
 
@@ -29,13 +29,13 @@ Il est crucial que votre fichier de configuration s'appelle exactement Dockerfil
 
 ---
 
-# Résolution des problèmes
+## Résolution des problèmes
 
 Erreur sur le Port **445**
 Si vous rencontrez une erreur liée au port **445** lors du lancement, cela est généralement dû au service "Serveur" de Windows qui occupe ce port.
 
 ### Procédure pour libérer le port :
-
+```
 1. Appuyez sur Windows + R.
 
 2. Tapez services.msc et validez.
@@ -47,5 +47,6 @@ Si vous rencontrez une erreur liée au port **445** lors du lancement, cela est 
 5. Changez le type de démarrage sur Désactivé.
 
 6. Cliquez sur le bouton Arrêter (en haut à gauche de la fenêtre des propriétés).
+```
 
 Relancez la commande docker compose up.
