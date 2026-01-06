@@ -1,4 +1,4 @@
-#  Projet Docker – Environnement Conteneurisé
+#  Docker Samba
 
 Ce projet permet de lancer rapidement un environnement conteneurisé à l’aide de **Docker Compose**.
 
