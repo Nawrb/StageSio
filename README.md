@@ -10,7 +10,7 @@ Assurez-vous d’être à la racine du projet (là où se trouve le fichier `doc
 
 ```bash
 docker compose up -d
-
+```
 ---
 
 ## Attention
