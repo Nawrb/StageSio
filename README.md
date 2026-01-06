@@ -17,15 +17,15 @@ docker compose up -d
 
 Il est crucial que votre fichier de configuration s'appelle exactement Dockerfile et non Dockerfile.txt.
 
-Si vous avez un problème d'extension sous Windows :
+# Procédure Windows pour corriger l'extension :
 
-Ouvrez votre explorateur de fichiers.
+1. Ouvrez l'explorateur de fichiers.
 
-Allez dans l'onglet Afficher.
+2. Accédez à l'onglet Affichage.
 
-Cochez la case Extensions de noms de fichiers.
+3. Cochez la case Extensions de noms de fichiers.
 
-Renommez le fichier pour supprimer le .txt s'il est présent.
+4. Renommez votre fichier pour supprimer le suffixe .txt s'il est présent.
 
 ---
 
@@ -34,18 +34,18 @@ Renommez le fichier pour supprimer le .txt s'il est présent.
 Erreur sur le Port **445**
 Si vous rencontrez une erreur liée au port **445** lors du lancement, cela est généralement dû au service "Serveur" de Windows qui occupe ce port.
 
-Procédure pour libérer le port :
+# Procédure pour libérer le port :
 
-Appuyez sur Windows + R.
+1. Appuyez sur Windows + R.
 
-Tapez services.msc et validez.
+2. Tapez services.msc et validez.
 
-Cherchez le service nommé Serveur.
+3. Cherchez le service nommé Serveur.
 
-Faites un clic droit -> Propriétés.
+4. Faites un clic droit -> Propriétés.
 
-Changez le type de démarrage sur Désactivé.
+5. Changez le type de démarrage sur Désactivé.
 
-Cliquez sur le bouton Arrêter (en haut à gauche de la fenêtre des propriétés).
+6. Cliquez sur le bouton Arrêter (en haut à gauche de la fenêtre des propriétés).
 
 Relancez la commande docker compose up.
