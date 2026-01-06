@@ -17,7 +17,7 @@ docker compose up -d
 
 Il est crucial que votre fichier de configuration s'appelle exactement Dockerfile et non Dockerfile.txt.
 
-# Procédure Windows pour corriger l'extension :
+### Procédure Windows pour corriger l'extension :
 
 1. Ouvrez l'explorateur de fichiers.
 
@@ -34,7 +34,7 @@ Il est crucial que votre fichier de configuration s'appelle exactement Dockerfil
 Erreur sur le Port **445**
 Si vous rencontrez une erreur liée au port **445** lors du lancement, cela est généralement dû au service "Serveur" de Windows qui occupe ce port.
 
-# Procédure pour libérer le port :
+### Procédure pour libérer le port :
 
 1. Appuyez sur Windows + R.
 
