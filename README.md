@@ -19,6 +19,8 @@ Suite a cela aller dans votre explorateur de fichier et taper cela:
 \\votre addresse ip\Data
 ```
 
+Après avoir fait cela on vous demandera un nom d'utilisateur et un mot de passe. Il faudra saisir en nom d'utilisateur **samba** et en mot de passe **secret**.
+
 ---
 
 ## Attention
