@@ -1,0 +1,14 @@
+from flask import Flask, request
+import os
+
+app = Flask(__name__)
+
+@app.route('/alerte', methods=['POST'])
+def alerte():
+    msg = request.data.decode('utf-8')
+    # Commande pour afficher le pop-up (ici pour Windows)
+    os.system(f'msg * "{msg}"') 
+    return "Reçu", 200
+
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=8080)
